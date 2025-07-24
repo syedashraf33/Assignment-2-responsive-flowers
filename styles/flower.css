@@ -76,3 +76,17 @@
 .banner-content{
     align-self: flex-end;
 }
+/* responsive media query */
+@media screen and (max-width: 576px) {
+    .nav-links{
+        display: none;
+    }
+    .banner{
+        flex-direction: column;
+        margin-top: 20px;
+        font-size: 2.5rem; 
+    }
+    .hero-image{
+        width: 100%;
+    }
+}
