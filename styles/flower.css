@@ -33,6 +33,10 @@
 .light-gray{
     color: rgba(0, 0, 0, 0.5);
 }
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* header style */
 
 /* navbar style */
@@ -62,11 +66,12 @@
 /* banner styles */
 .banner{
     margin-top: 130px;
+    margin-bottom:120px;
     align-items: center;
     width: 100%;
 }
 .banner-titile{
-    font-weight: 600;
+    font-weight: 700;
     font-size: 4rem;
     margin-bottom: 15px;
 }
@@ -76,6 +81,47 @@
 .banner-content{
     align-self: flex-end;
 }
+/* our plants */
+.our-plants{
+    text-align: center;
+}
+.content-titile{
+    font-weight: 700;
+    font-size: 3.1rem;
+    margin-bottom: 20px;
+}
+.content-paragraph{
+    font-size: 1.1rem;
+}
+
+/* flower card */
+.flower-card{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap: 30px;
+}
+.product-name{
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-bottom: 0px;
+}
+.price-name{
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.btn-cart{
+    padding: 10px 90px;
+    background-color: #E95A08;
+    border: none;
+    font-weight:600;
+    color: #f5f8ff;
+    font-size: .8rem;
+}
+
+
 /* responsive media query */
 @media screen and (max-width: 576px) {
     .nav-links{
@@ -89,4 +135,5 @@
     .hero-image{
         width: 100%;
     }
+    
 }
