@@ -95,10 +95,14 @@ main{
 }
 
 /* flower card */
+.flower-plants{
+    max-width: 1140px;
+}
 .flower-card{
     display: grid;
     grid-template-columns:repeat(4, 1fr);
     gap: 30px;
+    margin-bottom: 200px;
 }
 .product-name{
     font-weight: 500;
@@ -120,6 +124,38 @@ main{
     color: #f5f8ff;
     font-size: .8rem;
 }
+/* flower and plant sections */
+
+.flower-plants{
+    margin-bottom: 70px;
+}
+
+.plants-sections{
+    display: flex;
+}
+.plant-titile{
+    font-weight: 700;
+    font-size: 3.1rem;
+    color: black;
+}
+ul{
+    line-height: 1.5;
+    font-size: 1.1rem;
+}
+.badge-image{
+    width: 230px;
+    height: 230px;
+    margin-left: -130px;
+    margin-top: -90px;
+}
+
+
+
+
+
+
+
+
 
 
 /* responsive media query */
@@ -135,5 +171,8 @@ main{
     .hero-image{
         width: 100%;
     }
-    
+    .flower-card{
+        grid-template-columns:repeat(1, 1fr); ;
+    }
+
 }
