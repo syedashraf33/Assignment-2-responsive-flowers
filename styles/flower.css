@@ -160,19 +160,36 @@ ul{
 
 /* responsive media query */
 @media screen and (max-width: 576px) {
-    .nav-links{
+    .nav-links, .badge-image{
         display: none;
     }
-    .banner{
+    .banner,.plants-sections{
         flex-direction: column;
         margin-top: 20px;
         font-size: 2.5rem; 
+        justify-content: center;
+        width: 100%;
     }
     .hero-image{
         width: 100%;
     }
     .flower-card{
-        grid-template-columns:repeat(1, 1fr); ;
+        grid-template-columns:repeat(2, 1fr); ;
+        justify-content: center;
+        margin: 0 0 30px 0;
     }
-
+    .box>img{
+        width: 100%;
+    }
+    .banner{
+        margin-bottom: 30px;
+    }
+    .btn-cart{
+        padding: 10px 30px;
+    }
+    .plant-titile{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    
 }
