@@ -133,6 +133,7 @@ main{
 .plants-sections{
     display: flex;
 }
+
 .plant-titile{
     font-weight: 700;
     font-size: 3.1rem;
@@ -149,10 +150,59 @@ ul{
     margin-top: -90px;
 }
 
+/* join part section */
+.join-titile{
+    font-size: 3.1rem;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    margin-top: 120px;
+    
+}
+.join-part{
+    max-width: 1440px;
+    margin: 0 auto;
+    
+  
+}
+.email-section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
 
+}
+footer .join-part [type="email"]{
+    height: 50px;
+    background-color: #f5f8ff;
+    display: block;
+    padding: 5px 350px;
+    border: none;
+}
+.sub-button{
+    background-color: #E95A08;
+    color: white;
+    padding: 10px 60px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.bg{
+    background-image: url(/images/news-letter-bg.png);
+    height:530px;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no;
+    overflow: hidden;
 
+}
 
-
+/* last section with menu */
+.last-scetion{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
 
 
 
@@ -191,5 +241,5 @@ ul{
         font-size: 2.5rem;
         text-align: center;
     }
-    
+
 }
