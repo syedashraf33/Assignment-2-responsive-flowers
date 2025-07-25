@@ -7,8 +7,7 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings:"width" 100;
 }
 .inter-font{
   font-family: "Inter", sans-serif;
@@ -193,11 +192,9 @@ footer .join-part [type="email"]{
     height:530px;
     background-size: 100%;
     background-position: center;
-    background-repeat: no;
+    background-repeat: no-repeat;
     overflow: hidden;
-
 }
-
 /* last section with menu */
 .last-scetion{
     display: flex;
@@ -250,9 +247,57 @@ footer .join-part [type="email"]{
     .btn-cart{
         padding: 10px 30px;
     }
-    .plant-titile{
+    /* .plant-titile{
         font-size: 2.5rem;
         text-align: center;
+    } */
+
+    .last-scetion{
+        flex-direction: column;
+        width: 100%;
+        gap: normal;
     }
+    .plant-p, ul .list-1{
+        display: inline-block;
+        margin-right: 15px;
+    }
+    .plant-titile{
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+.join-titile{
+    font-size: 2.3rem;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    margin-top: 20px;
+    
+}
+.join-part{
+    width: 100%;
+    margin: 0 auto;
+}
+.bg{
+    background-image: url(/images/news-letter-bg.png);
+    height:auto;
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    }
+
+footer .join-part [type="email"]{
+    height: 50px;
+    background-color:bisque;
+    padding: 5px 30px;
+}
+.sub-button{
+    padding: 5px 10px;
+    font-size: 1rem;
+    }
+
+
+
+
 
 }
