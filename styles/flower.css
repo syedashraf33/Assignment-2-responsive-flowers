@@ -61,6 +61,10 @@ main{
     color:#252432;
     font-weight: 800;
 }
+.btn-cart-1{
+    border: none;
+    background-color:#f5f8ff;
+}
 
 /* banner styles */
 .banner{
@@ -118,7 +122,7 @@ main{
 .btn-cart{
     padding: 10px 90px;
     background-color: #E95A08;
-    border: none;
+    border:none;
     font-weight:600;
     color: #f5f8ff;
     font-size: .8rem;
