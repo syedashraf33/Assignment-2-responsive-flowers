@@ -226,6 +226,7 @@ footer .join-part [type="email"]{
     }
     .hero-image{
         width: 100%;
+        order:-1;
     }
     .flower-card{
         grid-template-columns:repeat(2, 1fr); ;
