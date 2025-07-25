@@ -155,15 +155,13 @@ main{
     font-size: 3.1rem;
     text-align: center;
     font-weight: 700;
-    color: black;
+    color: white;
     margin-top: 120px;
     
 }
 .join-part{
     max-width: 1440px;
     margin: 0 auto;
-    
-  
 }
 .email-section{
     display: flex;
@@ -172,8 +170,8 @@ main{
 }
 footer .join-part [type="email"]{
     height: 50px;
-    background-color: bisque;
-    /* display: block; */
+    background-color: #f5f8ff;
+    display: block;
     padding: 5px 350px;
     border: none;
 }
@@ -186,7 +184,7 @@ footer .join-part [type="email"]{
     font-weight: 500;
 }
 .bg{
-    background-image: url(/images/news-letter-bg.png);
+    background-image: url("../images/news-letter-bg.png");
     height:530px;
     background-size: 100%;
     background-position: center;
