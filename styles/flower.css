@@ -139,9 +139,10 @@ main{
     font-size: 3.1rem;
     color: black;
 }
-ul{
-    line-height: 1.5;
+.plant-p, ul .list-1{
+    line-height: 1.6;
     font-size: 1.1rem;
+    list-style: disc;
 }
 .badge-image{
     width: 230px;
@@ -199,11 +200,23 @@ footer .join-part [type="email"]{
 
 /* last section with menu */
 .last-scetion{
+    display: flex;
     max-width: 1140px;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 50px;
+    width: 100%;
+    gap: 100px;
 }
-
+.menu, .menu-2,.f-menu, ul {
+    list-style: none;
+    line-height: 3;
+}
+.menu, .menu-2, li a{
+    text-decoration: none;
+}
+.i-gap{
+  margin-right: 30px;
+}
 
 
 
