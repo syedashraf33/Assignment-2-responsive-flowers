@@ -273,7 +273,7 @@ footer .join-part [type="email"]{
     margin: 0 auto;
 }
 .bg{
-    background-image: url(/images/news-letter-bg.png);
+    background-image: url("../images/news-letter-bg.png");
     height:auto;
     background-size: 100%;
     background-position: top;
