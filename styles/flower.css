@@ -169,13 +169,11 @@ main{
     display: flex;
     justify-content: center;
     text-align: center;
-    
-
 }
 footer .join-part [type="email"]{
     height: 50px;
     background-color: #f5f8ff;
-    display: block;
+    /* display: block; */
     padding: 5px 350px;
     border: none;
 }
@@ -214,8 +212,6 @@ footer .join-part [type="email"]{
 .i-gap{
   margin-right: 30px;
 }
-
-
 
 
 /* responsive media query */
@@ -295,9 +291,4 @@ footer .join-part [type="email"]{
     padding: 5px 10px;
     font-size: 1rem;
     }
-
-
-
-
-
 }
